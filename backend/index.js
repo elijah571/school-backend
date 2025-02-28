@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true }));
 const allowedOrigins = [
     "http://localhost:5173", 
     "https://school-dashboard-d9bk.onrender.com",
-    "https://your-vercel-domain.vercel.app"  // Vercel domain
+    "https://frontend-school-uv12-ten.vercel.app/"  // Vercel domain
 ];
 
 app.use(
