@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 //cors
 const allowedOrigins = [
     "http://localhost:5173", 
-    " http://localhost:3000"
+    " http://localhost:3000",
     "https://your-vercel-domain.vercel.app"  // Vercel domain
 ];
 
