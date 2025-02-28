@@ -28,9 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 //cors
 const allowedOrigins = [
     "http://localhost:5173", 
-    "https://school-dashboard-d9bk.onrender.com",
-    "https://frontend-school-uv12-git-main-elijahs-projects-e0099976.vercel.app/",
-    "https://frontend-school-uv12-ten.vercel.app/"  // Vercel domain
+   "https://school-dashboard-d9bk.onrender.com"
 ];
 
 app.use(
