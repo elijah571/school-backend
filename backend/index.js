@@ -27,7 +27,8 @@ app.use(express.urlencoded({ extended: true }));
 
 //cors
 const allowedOrigins = [
-  "http://localhost:5173"
+    "http://localhost:5173", // Local development
+  "https://schoo-frontend.vercel.app/" // Vercel deployment URL
 ];
 
 app.use(
